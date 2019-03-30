@@ -1,0 +1,1110 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0508F2B6C0F70BACF5B545BA205478E9 /* AFSReusableIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0943C76F784A8B9009FCD706737FBF44 /* AFSReusableIdentifier.swift */; };
+		0DEA7EBD21F7EAD7B0C09B09E37BD485 /* AFSController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19022FCE433730ACFD473A63EA01D4D8 /* AFSController.swift */; };
+		0E20592568568321D1523383EAA44B2B /* AFSPickerLogicHandlersTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE83749502BEFF352F3DDADBBC70F8C /* AFSPickerLogicHandlersTypealias.swift */; };
+		107B5B67DC806548C5A1131B63EFB225 /* AFSReusableElementsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBFECCA72586307DCEC4FDED28FB25 /* AFSReusableElementsConfigurator.swift */; };
+		1728607E131A139F3F9B13DBEA215F04 /* AFSReusableDisplayKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9432B357C7FB9F900428BE7D4FCBD20 /* AFSReusableDisplayKit-dummy.m */; };
+		1C031706B1C67C6BBAA218EFBB64D987 /* AFSPickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A052F8E19C755EFBB784EB790C996EFC /* AFSPickerController.swift */; };
+		1E601078CCDE0E8F65619124A9ED8FAF /* AFSMetadataSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25921715522D28D9F877B66F17604477 /* AFSMetadataSectionHeader.swift */; };
+		1F20D5BEAB274E40EAAC9A6702AF711F /* RegistrationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265C4AFB42BB4419E071D5D33CDE0E26 /* RegistrationMethod.swift */; };
+		20EF412080E301F0676C132234E54C62 /* AFSElementConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E00AE515D34AB121E42910A7E936DB /* AFSElementConfiguration.swift */; };
+		240D3114DD92C76B62718F82C32F4888 /* AFSScrollLogicHandlersTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42978A3547C7DE4D924FC89D791702B8 /* AFSScrollLogicHandlersTypealias.swift */; };
+		24A12437C6D3032630B6ADC8AE3A2C06 /* Pods-AFSReusableDisplayKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFF592D00582DB76BC971C320854EC9 /* Pods-AFSReusableDisplayKit_Example-dummy.m */; };
+		2841A9F31929EB0392E6493DA4371872 /* AFSPickerLogicHandlersStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F76DBF65B0134EA97F4A599208783D7 /* AFSPickerLogicHandlersStructs.swift */; };
+		3E7EF78745CA2BCB6A4A3A0C017A460A /* AFSCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747C1C89A3C3A77F6AF2D65D412CF7A9 /* AFSCollection.swift */; };
+		46C4EB5AFFB07F2E84E0366754EA8357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		4B76F92225F200D1B6686A1A72300E57 /* AFSMetadataDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480F0D6DDA6C0B857DF78C465C07C459 /* AFSMetadataDataSource.swift */; };
+		4FDA0E9C2BDF8D0E9E8825ACE7DA5658 /* AFSTextFieldLogicHandlersTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E34EA3B46535A12B23108EB9ACCD89 /* AFSTextFieldLogicHandlersTypealias.swift */; };
+		52ABBB06473CD4A0B60565CD6A61AD23 /* AFSTableLogicHandlersTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3569F766E1ECE4AF02325EC125F7EEC1 /* AFSTableLogicHandlersTypealias.swift */; };
+		55010708479DBF00420C1E6F8AF5CA68 /* AFSCollectionElementsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847156453D9EA344C76ECDCCCF74877B /* AFSCollectionElementsConfigurator.swift */; };
+		633FA8BC45BD03916CEAED64B7461502 /* Pods-AFSReusableDisplayKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DED3CA9D82484AA01B1D8A16AC2BE23 /* Pods-AFSReusableDisplayKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		639504E13E2AA9660B5CBA838D79F644 /* AFSCollectionLogicHandlersStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4585BE23D9E08367B20ED454B7AAD0F2 /* AFSCollectionLogicHandlersStructs.swift */; };
+		63EA316CAFB25BF7A773FCEE0496ADC4 /* AFSTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B210E05D865F0F71E4E51BE3CC209F5F /* AFSTextViewController.swift */; };
+		69D0DCEA746AB57C3010E27FC042CEBD /* AFSTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29BBB4F7C2CA17D4DA04C979B1B11030 /* AFSTableController.swift */; };
+		6D3FF77E8F2C435A00A22575774324E7 /* AFSTextFieldControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA036593F949D2413BA08D7FC5902BF /* AFSTextFieldControllerBuilder.swift */; };
+		7A45E81646B2E58AE927119BA356C5C1 /* AFSTableElementsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D049D4B83EC4F741854A5490101551 /* AFSTableElementsConfigurator.swift */; };
+		7DA1507124486C342330A3696F3DC028 /* AFSScrollLogicHandlersStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03D9995D0AA9DA522D8246A9801216 /* AFSScrollLogicHandlersStructs.swift */; };
+		8231D4B71069D3693578A9F1A58121AC /* AFSTextViewLogicHandlersStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D211BAE500934E597CC6E7DC87EF8B67 /* AFSTextViewLogicHandlersStructs.swift */; };
+		852673C9F5FEAE5710F5E77C79C74E40 /* AFSTableLogicHandlersStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5EBA0D12064278E92C86DE2BEC9B33 /* AFSTableLogicHandlersStructs.swift */; };
+		8EED5EF08BE4AED6A879CC618DA8C36B /* AFSReusableElementsControllerBuilderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F1C2C8EA2BDD085231D52483336DC7 /* AFSReusableElementsControllerBuilderProtocol.swift */; };
+		937079DCE594BA06B95573D2B5DA6CEC /* AFSMetadataSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A7E41774AA5D00F5C3FF3DC5FAEF8 /* AFSMetadataSection.swift */; };
+		9F53B44705A035C283926F6435F0008C /* AFSTableControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01256300758B03D65587A5BD642B2578 /* AFSTableControllerBuilder.swift */; };
+		A40022B09BFFEEB2CC9D5577BC31B359 /* AFSReusableDisplayKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D29C8A7F83998893763EFF9F60C688D7 /* AFSReusableDisplayKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A644359BF850769B3B8F7172C7162070 /* Pods-AFSReusableDisplayKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ECA668C6302C90C15398859F5BAAFA8 /* Pods-AFSReusableDisplayKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6EB3BF3A1ACB5B24190EF648E438F52 /* AFSElementMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39983ECC212B0FF45DA31303B92AA5EF /* AFSElementMetadata.swift */; };
+		A92834E3A4ECF541EC93D2DA7B4939C9 /* AFSReusableElementsConfiguratorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256B4D2342A0D1944163097F8FC39658 /* AFSReusableElementsConfiguratorProtocol.swift */; };
+		AC7EB3223F9D3F11429AD9BAE326326C /* AFSPickerControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93ECB37ED4199E08AD2F9B51E12F24A3 /* AFSPickerControllerBuilder.swift */; };
+		ACCDF4821B993DB1D13E8B81553725A9 /* DefaultsIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA82E973D4AF6B701B782DFE71EBB0F9 /* DefaultsIdentifier.swift */; };
+		B1EE239BEF921EB9744DD5A987D1B0D4 /* AFSCollectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A0BF84D83E8E8815EFB5192F9903CA /* AFSCollectionController.swift */; };
+		B697240E76C9070D8349DEA6F4131AAA /* LogicHandlersDefaultsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD6C2D27A089A641B36B98F13E6533D /* LogicHandlersDefaultsTable.swift */; };
+		B70FD6AD988CD7049D9F402FD74F1975 /* AFSReusableDisplayKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E51DD3DD30F4AF2492A02FD4D125F1B /* AFSReusableDisplayKit.swift */; };
+		B9BEBC8388856E9BD0B39C934C1C4B38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		BB909452099FBFDFCC800AD55AE22B56 /* AFSReusableElementsControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB6C77EDF8A3896698CD6D7DB70B03E /* AFSReusableElementsControllerBuilder.swift */; };
+		BC7DA30C8648FA05C470CB1785714ABC /* AFSTitleable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39B7C617A01002FBBFDEAF0DA9E18973 /* AFSTitleable.swift */; };
+		BE5829B92DF9CC67D446B3C7626571CA /* AFSTextViewLogicHandlersTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745580CC2B1A2F82956DBEBEEA7D59B /* AFSTextViewLogicHandlersTypealias.swift */; };
+		C428EFC91A389174FBCD50E866324A7B /* AFSReusableElementsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A9EC18ACDDAB02F02A5C67DE3CE450 /* AFSReusableElementsController.swift */; };
+		C466E6C9FE9CC76599F8AC3817440337 /* AFSTextViewControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63828B14E8726F3A5731CBE9024DB0 /* AFSTextViewControllerBuilder.swift */; };
+		C4E6228A9568FC8A2DD02144890CB468 /* AFSCollectionControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EE8BC3D0D8ECC30D44DA4C79AA22D2 /* AFSCollectionControllerBuilder.swift */; };
+		C59359FA5AB5ABA18F45E51A43D02FD6 /* AFSScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39D3C8661AF998E48409020CFEC25DD /* AFSScrollController.swift */; };
+		C9DAFC331C25594A774C28EC2D72498B /* AFSReusableDisplayKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 90863321CF67344562E22AAF59694D25 /* AFSReusableDisplayKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA77709BC85490F8D7A5FB665F26071 /* Pods-AFSReusableDisplayKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7602C9900A28DE4B18926C9E2D705D /* Pods-AFSReusableDisplayKit_Tests-dummy.m */; };
+		CD22F1DC9E65063185F63DBFAB770575 /* AFSMetadataSectionFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5718715E455F0A3D2440AEAB69710D44 /* AFSMetadataSectionFooter.swift */; };
+		D221E460A003FFA68F2973EB90053B12 /* AFSTextFieldLogicHandlersStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EB20FC2D104F65A66E838E2F3080957 /* AFSTextFieldLogicHandlersStructs.swift */; };
+		E575777E6D7EB28133AE1179F238F204 /* AFSMetadataSectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71562FAD28BF181643C8D610D465FE4A /* AFSMetadataSectionItem.swift */; };
+		E588AD4E7A3C9E1192556B1F0375D5E6 /* LogicHandlersDefaultsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF3E749963F2D53BA60E0CA26C282F9 /* LogicHandlersDefaultsCollection.swift */; };
+		F04FD2892D8CE28DCACD91A59BDAA315 /* AFSCollectionLogicHandlersTypealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BB42A451FD542D4CEBE54E8DCBC0A /* AFSCollectionLogicHandlersTypealias.swift */; };
+		F29C8A22C587453A7AC0BF6E8305C100 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		F43FE79F06C38174DDEF7CA41F15E003 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		F8723A1A502EDDDD97A07B6F5B6A172F /* ExtensionsSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45280579E1101C3160B1B300476219AA /* ExtensionsSelector.swift */; };
+		FC3625BCE55B6B4601AE1DBEF5B4422F /* AFSScrollControllerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3A745E46868CA2DBC68CE49488C310 /* AFSScrollControllerBuilder.swift */; };
+		FCFC28F27E422CF8D561FEBC70F4B50D /* ReusableElementTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FC642634B0F00DBF6533B5CF53DBA6 /* ReusableElementTypes.swift */; };
+		FFD53DCE2FA55A6D93E3802ED927A04D /* AFSTextFieldController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420F6832FB1BBA388DA278CE6FD907AF /* AFSTextFieldController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73DBD0C3A1C26C763821C0637C8834D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5735E3114245C95E4230894EF097E9B5;
+			remoteInfo = "Pods-AFSReusableDisplayKit_Example";
+		};
+		A1EBD2EA5BAFCB13EB0C002D6A13A601 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C41D3B52E38B7802FDC17ECC6AA84F70;
+			remoteInfo = AFSReusableDisplayKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01256300758B03D65587A5BD642B2578 /* AFSTableControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTableControllerBuilder.swift; sourceTree = "<group>"; };
+		0745580CC2B1A2F82956DBEBEEA7D59B /* AFSTextViewLogicHandlersTypealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTextViewLogicHandlersTypealias.swift; sourceTree = "<group>"; };
+		0943C76F784A8B9009FCD706737FBF44 /* AFSReusableIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSReusableIdentifier.swift; sourceTree = "<group>"; };
+		0A9B445FFB2A39275C5C2B9C4F3438C2 /* Pods-AFSReusableDisplayKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFSReusableDisplayKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0EB20FC2D104F65A66E838E2F3080957 /* AFSTextFieldLogicHandlersStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTextFieldLogicHandlersStructs.swift; sourceTree = "<group>"; };
+		11EE8BC3D0D8ECC30D44DA4C79AA22D2 /* AFSCollectionControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSCollectionControllerBuilder.swift; sourceTree = "<group>"; };
+		153963BE955E7FD4BE73A475DD877186 /* Pods_AFSReusableDisplayKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFSReusableDisplayKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19022FCE433730ACFD473A63EA01D4D8 /* AFSController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSController.swift; sourceTree = "<group>"; };
+		19517BC34AD95A001FB494DCAA9C7AA2 /* Pods-AFSReusableDisplayKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFSReusableDisplayKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1AF3E749963F2D53BA60E0CA26C282F9 /* LogicHandlersDefaultsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogicHandlersDefaultsCollection.swift; sourceTree = "<group>"; };
+		1ECA668C6302C90C15398859F5BAAFA8 /* Pods-AFSReusableDisplayKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFSReusableDisplayKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		1F76DBF65B0134EA97F4A599208783D7 /* AFSPickerLogicHandlersStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSPickerLogicHandlersStructs.swift; sourceTree = "<group>"; };
+		256B4D2342A0D1944163097F8FC39658 /* AFSReusableElementsConfiguratorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSReusableElementsConfiguratorProtocol.swift; sourceTree = "<group>"; };
+		25921715522D28D9F877B66F17604477 /* AFSMetadataSectionHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSMetadataSectionHeader.swift; sourceTree = "<group>"; };
+		265C4AFB42BB4419E071D5D33CDE0E26 /* RegistrationMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegistrationMethod.swift; sourceTree = "<group>"; };
+		29BBB4F7C2CA17D4DA04C979B1B11030 /* AFSTableController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTableController.swift; sourceTree = "<group>"; };
+		2DED3CA9D82484AA01B1D8A16AC2BE23 /* Pods-AFSReusableDisplayKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFSReusableDisplayKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2EFF592D00582DB76BC971C320854EC9 /* Pods-AFSReusableDisplayKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFSReusableDisplayKit_Example-dummy.m"; sourceTree = "<group>"; };
+		3339542B34DBD5228154C52EAD216778 /* Pods-AFSReusableDisplayKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFSReusableDisplayKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		34BBA5CCA8BF1D1F72E6DBDDBEF77293 /* AFSReusableDisplayKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AFSReusableDisplayKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3569F766E1ECE4AF02325EC125F7EEC1 /* AFSTableLogicHandlersTypealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTableLogicHandlersTypealias.swift; sourceTree = "<group>"; };
+		39983ECC212B0FF45DA31303B92AA5EF /* AFSElementMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSElementMetadata.swift; sourceTree = "<group>"; };
+		39B7C617A01002FBBFDEAF0DA9E18973 /* AFSTitleable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTitleable.swift; sourceTree = "<group>"; };
+		3A0F45D3089B608E9A84DCA6B129A1EE /* AFSReusableDisplayKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFSReusableDisplayKit.xcconfig; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		420F6832FB1BBA388DA278CE6FD907AF /* AFSTextFieldController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTextFieldController.swift; sourceTree = "<group>"; };
+		42978A3547C7DE4D924FC89D791702B8 /* AFSScrollLogicHandlersTypealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSScrollLogicHandlersTypealias.swift; sourceTree = "<group>"; };
+		44492B04F185AE6964BCDA4E97986DDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		45280579E1101C3160B1B300476219AA /* ExtensionsSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ExtensionsSelector.swift; sourceTree = "<group>"; };
+		4585BE23D9E08367B20ED454B7AAD0F2 /* AFSCollectionLogicHandlersStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSCollectionLogicHandlersStructs.swift; sourceTree = "<group>"; };
+		480F0D6DDA6C0B857DF78C465C07C459 /* AFSMetadataDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSMetadataDataSource.swift; sourceTree = "<group>"; };
+		4E51DD3DD30F4AF2492A02FD4D125F1B /* AFSReusableDisplayKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFSReusableDisplayKit.swift; path = AFSReusableDisplayKit/Code/AFSReusableDisplayKit.swift; sourceTree = "<group>"; };
+		50A9EC18ACDDAB02F02A5C67DE3CE450 /* AFSReusableElementsController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSReusableElementsController.swift; sourceTree = "<group>"; };
+		51D049D4B83EC4F741854A5490101551 /* AFSTableElementsConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTableElementsConfigurator.swift; sourceTree = "<group>"; };
+		534512267E77B1353B3F92699D248895 /* AFSReusableDisplayKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFSReusableDisplayKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E34EA3B46535A12B23108EB9ACCD89 /* AFSTextFieldLogicHandlersTypealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTextFieldLogicHandlersTypealias.swift; sourceTree = "<group>"; };
+		57072F8A49F7949BB1C45DE0D82FE0D7 /* Pods-AFSReusableDisplayKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFSReusableDisplayKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		5718715E455F0A3D2440AEAB69710D44 /* AFSMetadataSectionFooter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSMetadataSectionFooter.swift; sourceTree = "<group>"; };
+		59DDFA864556C5144C257EFF954D1A53 /* Pods-AFSReusableDisplayKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AFSReusableDisplayKit_Example.modulemap"; sourceTree = "<group>"; };
+		5AB8EA8F91395478B8A2F9FF6D1F9967 /* AFSReusableDisplayKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFSReusableDisplayKit-Info.plist"; sourceTree = "<group>"; };
+		5BA0267C08B4DA52F18D03E2286A65B4 /* Pods-AFSReusableDisplayKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFSReusableDisplayKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C1BB42A451FD542D4CEBE54E8DCBC0A /* AFSCollectionLogicHandlersTypealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSCollectionLogicHandlersTypealias.swift; sourceTree = "<group>"; };
+		5DA036593F949D2413BA08D7FC5902BF /* AFSTextFieldControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTextFieldControllerBuilder.swift; sourceTree = "<group>"; };
+		60AD68C83D70518AFA948ED9C1FDB5FD /* Pods-AFSReusableDisplayKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFSReusableDisplayKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		636CA7B7C6729B99437E1ECF5123B5A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		63FC642634B0F00DBF6533B5CF53DBA6 /* ReusableElementTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReusableElementTypes.swift; sourceTree = "<group>"; };
+		6993412CE7C8CBA91060B7FB70C70F01 /* AFSReusableDisplayKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFSReusableDisplayKit-prefix.pch"; sourceTree = "<group>"; };
+		6E40A6E82771961FB7B2AD9D64E52FA9 /* Pods-AFSReusableDisplayKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AFSReusableDisplayKit_Tests.modulemap"; sourceTree = "<group>"; };
+		71562FAD28BF181643C8D610D465FE4A /* AFSMetadataSectionItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSMetadataSectionItem.swift; sourceTree = "<group>"; };
+		747C1C89A3C3A77F6AF2D65D412CF7A9 /* AFSCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSCollection.swift; sourceTree = "<group>"; };
+		7534ECCAA7B0A88F663F5CEC4A2E2F27 /* AFSReusableDisplayKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFSReusableDisplayKit.modulemap; sourceTree = "<group>"; };
+		776C22BA2C3E193D95C69D8803BABA6F /* Pods-AFSReusableDisplayKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFSReusableDisplayKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DB6C77EDF8A3896698CD6D7DB70B03E /* AFSReusableElementsControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSReusableElementsControllerBuilder.swift; sourceTree = "<group>"; };
+		83CCD8F711A8CD0B13441A38C8944DAA /* Pods_AFSReusableDisplayKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFSReusableDisplayKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		847156453D9EA344C76ECDCCCF74877B /* AFSCollectionElementsConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSCollectionElementsConfigurator.swift; sourceTree = "<group>"; };
+		8AD6C2D27A089A641B36B98F13E6533D /* LogicHandlersDefaultsTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogicHandlersDefaultsTable.swift; sourceTree = "<group>"; };
+		8D03D9995D0AA9DA522D8246A9801216 /* AFSScrollLogicHandlersStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSScrollLogicHandlersStructs.swift; sourceTree = "<group>"; };
+		8F5EBA0D12064278E92C86DE2BEC9B33 /* AFSTableLogicHandlersStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTableLogicHandlersStructs.swift; sourceTree = "<group>"; };
+		90863321CF67344562E22AAF59694D25 /* AFSReusableDisplayKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSReusableDisplayKit.h; path = AFSReusableDisplayKit/Code/AFSReusableDisplayKit.h; sourceTree = "<group>"; };
+		93ECB37ED4199E08AD2F9B51E12F24A3 /* AFSPickerControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSPickerControllerBuilder.swift; sourceTree = "<group>"; };
+		94F41BB4E3864CCCDD7DBE6083E05041 /* Pods-AFSReusableDisplayKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFSReusableDisplayKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		96F1C2C8EA2BDD085231D52483336DC7 /* AFSReusableElementsControllerBuilderProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSReusableElementsControllerBuilderProtocol.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A052F8E19C755EFBB784EB790C996EFC /* AFSPickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSPickerController.swift; sourceTree = "<group>"; };
+		A9432B357C7FB9F900428BE7D4FCBD20 /* AFSReusableDisplayKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFSReusableDisplayKit-dummy.m"; sourceTree = "<group>"; };
+		AA82E973D4AF6B701B782DFE71EBB0F9 /* DefaultsIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultsIdentifier.swift; sourceTree = "<group>"; };
+		AAEBFECCA72586307DCEC4FDED28FB25 /* AFSReusableElementsConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSReusableElementsConfigurator.swift; sourceTree = "<group>"; };
+		AC61CBE040745FAC3BD6CCC6600549FA /* Pods-AFSReusableDisplayKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFSReusableDisplayKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADB5888C86D5C88044F086D77E8E6C5E /* Pods-AFSReusableDisplayKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFSReusableDisplayKit_Example-Info.plist"; sourceTree = "<group>"; };
+		B210E05D865F0F71E4E51BE3CC209F5F /* AFSTextViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTextViewController.swift; sourceTree = "<group>"; };
+		B30A7E41774AA5D00F5C3FF3DC5FAEF8 /* AFSMetadataSection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSMetadataSection.swift; sourceTree = "<group>"; };
+		B6E00AE515D34AB121E42910A7E936DB /* AFSElementConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSElementConfiguration.swift; sourceTree = "<group>"; };
+		C7A0BF84D83E8E8815EFB5192F9903CA /* AFSCollectionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSCollectionController.swift; sourceTree = "<group>"; };
+		CB3A745E46868CA2DBC68CE49488C310 /* AFSScrollControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSScrollControllerBuilder.swift; sourceTree = "<group>"; };
+		D211BAE500934E597CC6E7DC87EF8B67 /* AFSTextViewLogicHandlersStructs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTextViewLogicHandlersStructs.swift; sourceTree = "<group>"; };
+		D29C8A7F83998893763EFF9F60C688D7 /* AFSReusableDisplayKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFSReusableDisplayKit-umbrella.h"; sourceTree = "<group>"; };
+		E39D3C8661AF998E48409020CFEC25DD /* AFSScrollController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSScrollController.swift; sourceTree = "<group>"; };
+		E52F38FFA7F6F8466900C88AD8417F21 /* Pods-AFSReusableDisplayKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFSReusableDisplayKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		ED7602C9900A28DE4B18926C9E2D705D /* Pods-AFSReusableDisplayKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFSReusableDisplayKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		FB63828B14E8726F3A5731CBE9024DB0 /* AFSTextViewControllerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSTextViewControllerBuilder.swift; sourceTree = "<group>"; };
+		FDE83749502BEFF352F3DDADBBC70F8C /* AFSPickerLogicHandlersTypealias.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AFSPickerLogicHandlersTypealias.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD6684C793408E4360995F26CCBEE88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29C8A22C587453A7AC0BF6E8305C100 /* Foundation.framework in Frameworks */,
+				F43FE79F06C38174DDEF7CA41F15E003 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B5E013F8D31D3B64F0BD0AB04CD570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9BEBC8388856E9BD0B39C934C1C4B38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB22224BF2BFCCFA61BF34A16834E9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46C4EB5AFFB07F2E84E0366754EA8357 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001F40B634CDA15986F6B31D2FE9EE1C /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F364BD4197C2B2C88FCA4CFF264C606A /* Collection */,
+				E5337C02B3DB576BE756D364F0890D44 /* PickerView */,
+				F82AC66C18F2AAA812819980C78BB707 /* Scroll */,
+				36610D1B72A9474450FDEBEEC35C4039 /* Table */,
+				1DC88D69A525E37012FF808246706ED6 /* TextField */,
+				18A816B725DCDFE6AB69BA2149BF052D /* TextView */,
+			);
+			name = Features;
+			path = AFSReusableDisplayKit/Code/Features;
+			sourceTree = "<group>";
+		};
+		0BB31571E12EFEE7A15D405B0960AE99 /* AFSFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				794347FED34946A1DA1680675231C808 /* Classes */,
+				A31476F4E0F6E383129853326B17C179 /* Extensions */,
+				2700E6068B5AF6BEE1413ED8D49D53CC /* Protocols */,
+			);
+			name = AFSFoundation;
+			path = AFSReusableDisplayKit/Code/AFSFoundation;
+			sourceTree = "<group>";
+		};
+		1461C9CA34DA34828A3741C3A58F2F58 /* LogicHolders */ = {
+			isa = PBXGroup;
+			children = (
+				B6E00AE515D34AB121E42910A7E936DB /* AFSElementConfiguration.swift */,
+				39983ECC212B0FF45DA31303B92AA5EF /* AFSElementMetadata.swift */,
+				0943C76F784A8B9009FCD706737FBF44 /* AFSReusableIdentifier.swift */,
+			);
+			path = LogicHolders;
+			sourceTree = "<group>";
+		};
+		148A370DD71D6D53CEE1BD5B8A7BDE4B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E22B6027083BF48AF6A3C9C9C26D693D /* AFSReusableDisplayKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1838DEB83173C73E2673C57FE7B0BC8E /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				AA82E973D4AF6B701B782DFE71EBB0F9 /* DefaultsIdentifier.swift */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		18A816B725DCDFE6AB69BA2149BF052D /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				B210E05D865F0F71E4E51BE3CC209F5F /* AFSTextViewController.swift */,
+				FB63828B14E8726F3A5731CBE9024DB0 /* AFSTextViewControllerBuilder.swift */,
+				D211BAE500934E597CC6E7DC87EF8B67 /* AFSTextViewLogicHandlersStructs.swift */,
+				0745580CC2B1A2F82956DBEBEEA7D59B /* AFSTextViewLogicHandlersTypealias.swift */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		1DC88D69A525E37012FF808246706ED6 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				420F6832FB1BBA388DA278CE6FD907AF /* AFSTextFieldController.swift */,
+				5DA036593F949D2413BA08D7FC5902BF /* AFSTextFieldControllerBuilder.swift */,
+				0EB20FC2D104F65A66E838E2F3080957 /* AFSTextFieldLogicHandlersStructs.swift */,
+				55E34EA3B46535A12B23108EB9ACCD89 /* AFSTextFieldLogicHandlersTypealias.swift */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		26E8994EE445F58D3480C5695443E372 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				34BBA5CCA8BF1D1F72E6DBDDBEF77293 /* AFSReusableDisplayKit.podspec */,
+				636CA7B7C6729B99437E1ECF5123B5A0 /* LICENSE */,
+				44492B04F185AE6964BCDA4E97986DDE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2700E6068B5AF6BEE1413ED8D49D53CC /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				747C1C89A3C3A77F6AF2D65D412CF7A9 /* AFSCollection.swift */,
+				39B7C617A01002FBBFDEAF0DA9E18973 /* AFSTitleable.swift */,
+				3E1AC6F254BB882D9E94EDFD8603FCD7 /* DataSource Protocol */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		36610D1B72A9474450FDEBEEC35C4039 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				29BBB4F7C2CA17D4DA04C979B1B11030 /* AFSTableController.swift */,
+				01256300758B03D65587A5BD642B2578 /* AFSTableControllerBuilder.swift */,
+				51D049D4B83EC4F741854A5490101551 /* AFSTableElementsConfigurator.swift */,
+				8F5EBA0D12064278E92C86DE2BEC9B33 /* AFSTableLogicHandlersStructs.swift */,
+				3569F766E1ECE4AF02325EC125F7EEC1 /* AFSTableLogicHandlersTypealias.swift */,
+				8AD6C2D27A089A641B36B98F13E6533D /* LogicHandlersDefaultsTable.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
+		3E1AC6F254BB882D9E94EDFD8603FCD7 /* DataSource Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				480F0D6DDA6C0B857DF78C465C07C459 /* AFSMetadataDataSource.swift */,
+				B30A7E41774AA5D00F5C3FF3DC5FAEF8 /* AFSMetadataSection.swift */,
+				5718715E455F0A3D2440AEAB69710D44 /* AFSMetadataSectionFooter.swift */,
+				25921715522D28D9F877B66F17604477 /* AFSMetadataSectionHeader.swift */,
+				71562FAD28BF181643C8D610D465FE4A /* AFSMetadataSectionItem.swift */,
+			);
+			path = "DataSource Protocol";
+			sourceTree = "<group>";
+		};
+		74DE5F89C28269CEB4E039B40E39EB44 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AAEBFECCA72586307DCEC4FDED28FB25 /* AFSReusableElementsConfigurator.swift */,
+				50A9EC18ACDDAB02F02A5C67DE3CE450 /* AFSReusableElementsController.swift */,
+				7DB6C77EDF8A3896698CD6D7DB70B03E /* AFSReusableElementsControllerBuilder.swift */,
+				1838DEB83173C73E2673C57FE7B0BC8E /* Defaults */,
+				B6E1FB0603FEC7312AF2D690F542C4D9 /* Enums */,
+				1461C9CA34DA34828A3741C3A58F2F58 /* LogicHolders */,
+				A84C2313AEC8288317C27B2EF36C9C02 /* Protocols */,
+			);
+			name = Core;
+			path = AFSReusableDisplayKit/Code/Core;
+			sourceTree = "<group>";
+		};
+		794347FED34946A1DA1680675231C808 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				19022FCE433730ACFD473A63EA01D4D8 /* AFSController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7B2422DDA499BD5937E49E9A266AB095 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF3EEEBA20277D8C4D992EE894CAA744 /* Pods-AFSReusableDisplayKit_Example */,
+				C61DB34F7B64CD787351B5A454A647EE /* Pods-AFSReusableDisplayKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C99823D0DECF82CBDF351063F133EB0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7534ECCAA7B0A88F663F5CEC4A2E2F27 /* AFSReusableDisplayKit.modulemap */,
+				3A0F45D3089B608E9A84DCA6B129A1EE /* AFSReusableDisplayKit.xcconfig */,
+				A9432B357C7FB9F900428BE7D4FCBD20 /* AFSReusableDisplayKit-dummy.m */,
+				5AB8EA8F91395478B8A2F9FF6D1F9967 /* AFSReusableDisplayKit-Info.plist */,
+				6993412CE7C8CBA91060B7FB70C70F01 /* AFSReusableDisplayKit-prefix.pch */,
+				D29C8A7F83998893763EFF9F60C688D7 /* AFSReusableDisplayKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AFSReusableDisplayKit";
+			sourceTree = "<group>";
+		};
+		9D87330674B790CCF36B742AAC5E25C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				534512267E77B1353B3F92699D248895 /* AFSReusableDisplayKit.framework */,
+				153963BE955E7FD4BE73A475DD877186 /* Pods_AFSReusableDisplayKit_Example.framework */,
+				83CCD8F711A8CD0B13441A38C8944DAA /* Pods_AFSReusableDisplayKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A31476F4E0F6E383129853326B17C179 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45280579E1101C3160B1B300476219AA /* ExtensionsSelector.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A84C2313AEC8288317C27B2EF36C9C02 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				256B4D2342A0D1944163097F8FC39658 /* AFSReusableElementsConfiguratorProtocol.swift */,
+				96F1C2C8EA2BDD085231D52483336DC7 /* AFSReusableElementsControllerBuilderProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B6E1FB0603FEC7312AF2D690F542C4D9 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				265C4AFB42BB4419E071D5D33CDE0E26 /* RegistrationMethod.swift */,
+				63FC642634B0F00DBF6533B5CF53DBA6 /* ReusableElementTypes.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		C61DB34F7B64CD787351B5A454A647EE /* Pods-AFSReusableDisplayKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E40A6E82771961FB7B2AD9D64E52FA9 /* Pods-AFSReusableDisplayKit_Tests.modulemap */,
+				5BA0267C08B4DA52F18D03E2286A65B4 /* Pods-AFSReusableDisplayKit_Tests-acknowledgements.markdown */,
+				60AD68C83D70518AFA948ED9C1FDB5FD /* Pods-AFSReusableDisplayKit_Tests-acknowledgements.plist */,
+				ED7602C9900A28DE4B18926C9E2D705D /* Pods-AFSReusableDisplayKit_Tests-dummy.m */,
+				57072F8A49F7949BB1C45DE0D82FE0D7 /* Pods-AFSReusableDisplayKit_Tests-Info.plist */,
+				2DED3CA9D82484AA01B1D8A16AC2BE23 /* Pods-AFSReusableDisplayKit_Tests-umbrella.h */,
+				3339542B34DBD5228154C52EAD216778 /* Pods-AFSReusableDisplayKit_Tests.debug.xcconfig */,
+				0A9B445FFB2A39275C5C2B9C4F3438C2 /* Pods-AFSReusableDisplayKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-AFSReusableDisplayKit_Tests";
+			path = "Target Support Files/Pods-AFSReusableDisplayKit_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				148A370DD71D6D53CEE1BD5B8A7BDE4B /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9D87330674B790CCF36B742AAC5E25C7 /* Products */,
+				7B2422DDA499BD5937E49E9A266AB095 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DF3EEEBA20277D8C4D992EE894CAA744 /* Pods-AFSReusableDisplayKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				59DDFA864556C5144C257EFF954D1A53 /* Pods-AFSReusableDisplayKit_Example.modulemap */,
+				776C22BA2C3E193D95C69D8803BABA6F /* Pods-AFSReusableDisplayKit_Example-acknowledgements.markdown */,
+				AC61CBE040745FAC3BD6CCC6600549FA /* Pods-AFSReusableDisplayKit_Example-acknowledgements.plist */,
+				2EFF592D00582DB76BC971C320854EC9 /* Pods-AFSReusableDisplayKit_Example-dummy.m */,
+				94F41BB4E3864CCCDD7DBE6083E05041 /* Pods-AFSReusableDisplayKit_Example-frameworks.sh */,
+				ADB5888C86D5C88044F086D77E8E6C5E /* Pods-AFSReusableDisplayKit_Example-Info.plist */,
+				1ECA668C6302C90C15398859F5BAAFA8 /* Pods-AFSReusableDisplayKit_Example-umbrella.h */,
+				E52F38FFA7F6F8466900C88AD8417F21 /* Pods-AFSReusableDisplayKit_Example.debug.xcconfig */,
+				19517BC34AD95A001FB494DCAA9C7AA2 /* Pods-AFSReusableDisplayKit_Example.release.xcconfig */,
+			);
+			name = "Pods-AFSReusableDisplayKit_Example";
+			path = "Target Support Files/Pods-AFSReusableDisplayKit_Example";
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E22B6027083BF48AF6A3C9C9C26D693D /* AFSReusableDisplayKit */ = {
+			isa = PBXGroup;
+			children = (
+				90863321CF67344562E22AAF59694D25 /* AFSReusableDisplayKit.h */,
+				4E51DD3DD30F4AF2492A02FD4D125F1B /* AFSReusableDisplayKit.swift */,
+				0BB31571E12EFEE7A15D405B0960AE99 /* AFSFoundation */,
+				74DE5F89C28269CEB4E039B40E39EB44 /* Core */,
+				001F40B634CDA15986F6B31D2FE9EE1C /* Features */,
+				26E8994EE445F58D3480C5695443E372 /* Pod */,
+				8C99823D0DECF82CBDF351063F133EB0 /* Support Files */,
+			);
+			name = AFSReusableDisplayKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E5337C02B3DB576BE756D364F0890D44 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A052F8E19C755EFBB784EB790C996EFC /* AFSPickerController.swift */,
+				93ECB37ED4199E08AD2F9B51E12F24A3 /* AFSPickerControllerBuilder.swift */,
+				1F76DBF65B0134EA97F4A599208783D7 /* AFSPickerLogicHandlersStructs.swift */,
+				FDE83749502BEFF352F3DDADBBC70F8C /* AFSPickerLogicHandlersTypealias.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		F364BD4197C2B2C88FCA4CFF264C606A /* Collection */ = {
+			isa = PBXGroup;
+			children = (
+				C7A0BF84D83E8E8815EFB5192F9903CA /* AFSCollectionController.swift */,
+				11EE8BC3D0D8ECC30D44DA4C79AA22D2 /* AFSCollectionControllerBuilder.swift */,
+				847156453D9EA344C76ECDCCCF74877B /* AFSCollectionElementsConfigurator.swift */,
+				4585BE23D9E08367B20ED454B7AAD0F2 /* AFSCollectionLogicHandlersStructs.swift */,
+				5C1BB42A451FD542D4CEBE54E8DCBC0A /* AFSCollectionLogicHandlersTypealias.swift */,
+				1AF3E749963F2D53BA60E0CA26C282F9 /* LogicHandlersDefaultsCollection.swift */,
+			);
+			path = Collection;
+			sourceTree = "<group>";
+		};
+		F82AC66C18F2AAA812819980C78BB707 /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				E39D3C8661AF998E48409020CFEC25DD /* AFSScrollController.swift */,
+				CB3A745E46868CA2DBC68CE49488C310 /* AFSScrollControllerBuilder.swift */,
+				8D03D9995D0AA9DA522D8246A9801216 /* AFSScrollLogicHandlersStructs.swift */,
+				42978A3547C7DE4D924FC89D791702B8 /* AFSScrollLogicHandlersTypealias.swift */,
+			);
+			path = Scroll;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0676845379E7D5C626286CD0AF3A03A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40022B09BFFEEB2CC9D5577BC31B359 /* AFSReusableDisplayKit-umbrella.h in Headers */,
+				C9DAFC331C25594A774C28EC2D72498B /* AFSReusableDisplayKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4470052891FB2F78662D3BC07395FD0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A644359BF850769B3B8F7172C7162070 /* Pods-AFSReusableDisplayKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8C55747469EE27B776F2C13BE327A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633FA8BC45BD03916CEAED64B7461502 /* Pods-AFSReusableDisplayKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		129409D25DD10E6D8F4FF57DCF748126 /* Pods-AFSReusableDisplayKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812C42D0BCF3FAA64E707821483456E8 /* Build configuration list for PBXNativeTarget "Pods-AFSReusableDisplayKit_Tests" */;
+			buildPhases = (
+				4B8C55747469EE27B776F2C13BE327A0 /* Headers */,
+				142BEC250A97273B2BC13D0CC5F6171C /* Sources */,
+				FB22224BF2BFCCFA61BF34A16834E9B0 /* Frameworks */,
+				0496B5C8D39928CF9355EF9C2B2F9AEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F04B92F6693FE951671D4CC791B9483 /* PBXTargetDependency */,
+			);
+			name = "Pods-AFSReusableDisplayKit_Tests";
+			productName = "Pods-AFSReusableDisplayKit_Tests";
+			productReference = 83CCD8F711A8CD0B13441A38C8944DAA /* Pods_AFSReusableDisplayKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5735E3114245C95E4230894EF097E9B5 /* Pods-AFSReusableDisplayKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848986AE673D9CA10CBEF953AE19E1BB /* Build configuration list for PBXNativeTarget "Pods-AFSReusableDisplayKit_Example" */;
+			buildPhases = (
+				4470052891FB2F78662D3BC07395FD0A /* Headers */,
+				8D14625E6A4895B692D11B56EE919537 /* Sources */,
+				E7B5E013F8D31D3B64F0BD0AB04CD570 /* Frameworks */,
+				19E4F5EE15FD95879E6EFA050A0BB2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0AAB6C767517803C9572D70B326B9F /* PBXTargetDependency */,
+			);
+			name = "Pods-AFSReusableDisplayKit_Example";
+			productName = "Pods-AFSReusableDisplayKit_Example";
+			productReference = 153963BE955E7FD4BE73A475DD877186 /* Pods_AFSReusableDisplayKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C41D3B52E38B7802FDC17ECC6AA84F70 /* AFSReusableDisplayKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6A6D30D8864C72D01936EF31EF9C82D /* Build configuration list for PBXNativeTarget "AFSReusableDisplayKit" */;
+			buildPhases = (
+				0676845379E7D5C626286CD0AF3A03A3 /* Headers */,
+				416ECA3840A535414E24D731D8803681 /* Sources */,
+				BFD6684C793408E4360995F26CCBEE88 /* Frameworks */,
+				C0DF0C32908A70061D79E6F9C77C7602 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFSReusableDisplayKit;
+			productName = AFSReusableDisplayKit;
+			productReference = 534512267E77B1353B3F92699D248895 /* AFSReusableDisplayKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9D87330674B790CCF36B742AAC5E25C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C41D3B52E38B7802FDC17ECC6AA84F70 /* AFSReusableDisplayKit */,
+				5735E3114245C95E4230894EF097E9B5 /* Pods-AFSReusableDisplayKit_Example */,
+				129409D25DD10E6D8F4FF57DCF748126 /* Pods-AFSReusableDisplayKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0496B5C8D39928CF9355EF9C2B2F9AEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E4F5EE15FD95879E6EFA050A0BB2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0DF0C32908A70061D79E6F9C77C7602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142BEC250A97273B2BC13D0CC5F6171C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA77709BC85490F8D7A5FB665F26071 /* Pods-AFSReusableDisplayKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416ECA3840A535414E24D731D8803681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E7EF78745CA2BCB6A4A3A0C017A460A /* AFSCollection.swift in Sources */,
+				B1EE239BEF921EB9744DD5A987D1B0D4 /* AFSCollectionController.swift in Sources */,
+				C4E6228A9568FC8A2DD02144890CB468 /* AFSCollectionControllerBuilder.swift in Sources */,
+				55010708479DBF00420C1E6F8AF5CA68 /* AFSCollectionElementsConfigurator.swift in Sources */,
+				639504E13E2AA9660B5CBA838D79F644 /* AFSCollectionLogicHandlersStructs.swift in Sources */,
+				F04FD2892D8CE28DCACD91A59BDAA315 /* AFSCollectionLogicHandlersTypealias.swift in Sources */,
+				0DEA7EBD21F7EAD7B0C09B09E37BD485 /* AFSController.swift in Sources */,
+				20EF412080E301F0676C132234E54C62 /* AFSElementConfiguration.swift in Sources */,
+				A6EB3BF3A1ACB5B24190EF648E438F52 /* AFSElementMetadata.swift in Sources */,
+				4B76F92225F200D1B6686A1A72300E57 /* AFSMetadataDataSource.swift in Sources */,
+				937079DCE594BA06B95573D2B5DA6CEC /* AFSMetadataSection.swift in Sources */,
+				CD22F1DC9E65063185F63DBFAB770575 /* AFSMetadataSectionFooter.swift in Sources */,
+				1E601078CCDE0E8F65619124A9ED8FAF /* AFSMetadataSectionHeader.swift in Sources */,
+				E575777E6D7EB28133AE1179F238F204 /* AFSMetadataSectionItem.swift in Sources */,
+				1C031706B1C67C6BBAA218EFBB64D987 /* AFSPickerController.swift in Sources */,
+				AC7EB3223F9D3F11429AD9BAE326326C /* AFSPickerControllerBuilder.swift in Sources */,
+				2841A9F31929EB0392E6493DA4371872 /* AFSPickerLogicHandlersStructs.swift in Sources */,
+				0E20592568568321D1523383EAA44B2B /* AFSPickerLogicHandlersTypealias.swift in Sources */,
+				1728607E131A139F3F9B13DBEA215F04 /* AFSReusableDisplayKit-dummy.m in Sources */,
+				B70FD6AD988CD7049D9F402FD74F1975 /* AFSReusableDisplayKit.swift in Sources */,
+				107B5B67DC806548C5A1131B63EFB225 /* AFSReusableElementsConfigurator.swift in Sources */,
+				A92834E3A4ECF541EC93D2DA7B4939C9 /* AFSReusableElementsConfiguratorProtocol.swift in Sources */,
+				C428EFC91A389174FBCD50E866324A7B /* AFSReusableElementsController.swift in Sources */,
+				BB909452099FBFDFCC800AD55AE22B56 /* AFSReusableElementsControllerBuilder.swift in Sources */,
+				8EED5EF08BE4AED6A879CC618DA8C36B /* AFSReusableElementsControllerBuilderProtocol.swift in Sources */,
+				0508F2B6C0F70BACF5B545BA205478E9 /* AFSReusableIdentifier.swift in Sources */,
+				C59359FA5AB5ABA18F45E51A43D02FD6 /* AFSScrollController.swift in Sources */,
+				FC3625BCE55B6B4601AE1DBEF5B4422F /* AFSScrollControllerBuilder.swift in Sources */,
+				7DA1507124486C342330A3696F3DC028 /* AFSScrollLogicHandlersStructs.swift in Sources */,
+				240D3114DD92C76B62718F82C32F4888 /* AFSScrollLogicHandlersTypealias.swift in Sources */,
+				69D0DCEA746AB57C3010E27FC042CEBD /* AFSTableController.swift in Sources */,
+				9F53B44705A035C283926F6435F0008C /* AFSTableControllerBuilder.swift in Sources */,
+				7A45E81646B2E58AE927119BA356C5C1 /* AFSTableElementsConfigurator.swift in Sources */,
+				852673C9F5FEAE5710F5E77C79C74E40 /* AFSTableLogicHandlersStructs.swift in Sources */,
+				52ABBB06473CD4A0B60565CD6A61AD23 /* AFSTableLogicHandlersTypealias.swift in Sources */,
+				FFD53DCE2FA55A6D93E3802ED927A04D /* AFSTextFieldController.swift in Sources */,
+				6D3FF77E8F2C435A00A22575774324E7 /* AFSTextFieldControllerBuilder.swift in Sources */,
+				D221E460A003FFA68F2973EB90053B12 /* AFSTextFieldLogicHandlersStructs.swift in Sources */,
+				4FDA0E9C2BDF8D0E9E8825ACE7DA5658 /* AFSTextFieldLogicHandlersTypealias.swift in Sources */,
+				63EA316CAFB25BF7A773FCEE0496ADC4 /* AFSTextViewController.swift in Sources */,
+				C466E6C9FE9CC76599F8AC3817440337 /* AFSTextViewControllerBuilder.swift in Sources */,
+				8231D4B71069D3693578A9F1A58121AC /* AFSTextViewLogicHandlersStructs.swift in Sources */,
+				BE5829B92DF9CC67D446B3C7626571CA /* AFSTextViewLogicHandlersTypealias.swift in Sources */,
+				BC7DA30C8648FA05C470CB1785714ABC /* AFSTitleable.swift in Sources */,
+				ACCDF4821B993DB1D13E8B81553725A9 /* DefaultsIdentifier.swift in Sources */,
+				F8723A1A502EDDDD97A07B6F5B6A172F /* ExtensionsSelector.swift in Sources */,
+				E588AD4E7A3C9E1192556B1F0375D5E6 /* LogicHandlersDefaultsCollection.swift in Sources */,
+				B697240E76C9070D8349DEA6F4131AAA /* LogicHandlersDefaultsTable.swift in Sources */,
+				1F20D5BEAB274E40EAAC9A6702AF711F /* RegistrationMethod.swift in Sources */,
+				FCFC28F27E422CF8D561FEBC70F4B50D /* ReusableElementTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D14625E6A4895B692D11B56EE919537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A12437C6D3032630B6ADC8AE3A2C06 /* Pods-AFSReusableDisplayKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F04B92F6693FE951671D4CC791B9483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AFSReusableDisplayKit_Example";
+			target = 5735E3114245C95E4230894EF097E9B5 /* Pods-AFSReusableDisplayKit_Example */;
+			targetProxy = 73DBD0C3A1C26C763821C0637C8834D6 /* PBXContainerItemProxy */;
+		};
+		AD0AAB6C767517803C9572D70B326B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFSReusableDisplayKit;
+			target = C41D3B52E38B7802FDC17ECC6AA84F70 /* AFSReusableDisplayKit */;
+			targetProxy = A1EBD2EA5BAFCB13EB0C002D6A13A601 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		103B24E49C6FCD007ABA13BD01B0D2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E52F38FFA7F6F8466900C88AD8417F21 /* Pods-AFSReusableDisplayKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AFSReusableDisplayKit_Example/Pods-AFSReusableDisplayKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AFSReusableDisplayKit_Example/Pods-AFSReusableDisplayKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		344C24D9DC7A2AF25967C4A83E04A43C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A9B445FFB2A39275C5C2B9C4F3438C2 /* Pods-AFSReusableDisplayKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AFSReusableDisplayKit_Tests/Pods-AFSReusableDisplayKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AFSReusableDisplayKit_Tests/Pods-AFSReusableDisplayKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FE63FB0C98792C8AB725AC4793807F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0F45D3089B608E9A84DCA6B129A1EE /* AFSReusableDisplayKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFSReusableDisplayKit/AFSReusableDisplayKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFSReusableDisplayKit/AFSReusableDisplayKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFSReusableDisplayKit/AFSReusableDisplayKit.modulemap";
+				PRODUCT_MODULE_NAME = AFSReusableDisplayKit;
+				PRODUCT_NAME = AFSReusableDisplayKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5A8772E6EEB64474DC8FBDC48DBD1B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0F45D3089B608E9A84DCA6B129A1EE /* AFSReusableDisplayKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFSReusableDisplayKit/AFSReusableDisplayKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFSReusableDisplayKit/AFSReusableDisplayKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFSReusableDisplayKit/AFSReusableDisplayKit.modulemap";
+				PRODUCT_MODULE_NAME = AFSReusableDisplayKit;
+				PRODUCT_NAME = AFSReusableDisplayKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B2D2861357AE64A4E797B9FDC4CD9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19517BC34AD95A001FB494DCAA9C7AA2 /* Pods-AFSReusableDisplayKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AFSReusableDisplayKit_Example/Pods-AFSReusableDisplayKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AFSReusableDisplayKit_Example/Pods-AFSReusableDisplayKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8F47959B8C4EB08B72FD36A24EF34386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3339542B34DBD5228154C52EAD216778 /* Pods-AFSReusableDisplayKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AFSReusableDisplayKit_Tests/Pods-AFSReusableDisplayKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AFSReusableDisplayKit_Tests/Pods-AFSReusableDisplayKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812C42D0BCF3FAA64E707821483456E8 /* Build configuration list for PBXNativeTarget "Pods-AFSReusableDisplayKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F47959B8C4EB08B72FD36A24EF34386 /* Debug */,
+				344C24D9DC7A2AF25967C4A83E04A43C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848986AE673D9CA10CBEF953AE19E1BB /* Build configuration list for PBXNativeTarget "Pods-AFSReusableDisplayKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				103B24E49C6FCD007ABA13BD01B0D2CD /* Debug */,
+				6B2D2861357AE64A4E797B9FDC4CD9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6A6D30D8864C72D01936EF31EF9C82D /* Build configuration list for PBXNativeTarget "AFSReusableDisplayKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A8772E6EEB64474DC8FBDC48DBD1B24 /* Debug */,
+				4FE63FB0C98792C8AB725AC4793807F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

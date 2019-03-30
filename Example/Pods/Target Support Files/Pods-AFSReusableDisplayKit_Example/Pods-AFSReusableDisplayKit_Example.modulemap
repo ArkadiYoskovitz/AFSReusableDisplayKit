@@ -1,0 +1,6 @@
+framework module Pods_AFSReusableDisplayKit_Example {
+  umbrella header "Pods-AFSReusableDisplayKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

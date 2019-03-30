@@ -1,0 +1,16 @@
+PODS:
+  - AFSReusableDisplayKit (1.0.0)
+
+DEPENDENCIES:
+  - AFSReusableDisplayKit (from `../`)
+
+EXTERNAL SOURCES:
+  AFSReusableDisplayKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFSReusableDisplayKit: 3dc119180fe64ba6a91d57ed4f5c627f5d9beb98
+
+PODFILE CHECKSUM: 674a8d3fc7888b87588944ffc1d81cd6630cd248
+
+COCOAPODS: 1.6.1

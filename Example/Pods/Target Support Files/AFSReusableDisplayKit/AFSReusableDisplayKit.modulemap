@@ -1,0 +1,6 @@
+framework module AFSReusableDisplayKit {
+  umbrella header "AFSReusableDisplayKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
