@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
     #
     
     s.name             = 'AFSReusableDisplayKit'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'AFSReusableDisplayKit allow the user to control the behavior of a reusable display elements, by encapludating it via block based builders'
     
     # This description is used to generate tags and improve search results.
