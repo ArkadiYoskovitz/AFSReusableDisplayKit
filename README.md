@@ -23,7 +23,7 @@ pod 'AFSReusableDisplayKit'
 
 ## Author
 
-ArkadiGiniApps, a4s.development@gmail.com
+Arkadi Yoskovitz, a4s.development@gmail.com
 
 ## License
 
