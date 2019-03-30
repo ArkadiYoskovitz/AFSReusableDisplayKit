@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		1340169A5EA41361C1F325C6 /* Pods_AFSReusableDisplayKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2D8E7F221EBE782FF42572E /* Pods_AFSReusableDisplayKit_Tests.framework */; };
 		4181EBF4CAF5163320C61029 /* Pods_AFSReusableDisplayKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF57CD1C463ACAA73A6A3A22 /* Pods_AFSReusableDisplayKit_Example.framework */; };
+		5DB596A8224FA602001C4E64 /* ModelObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB596A7224FA602001C4E64 /* ModelObjects.swift */; };
+		5DB596AA224FA632001C4E64 /* SectionClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB596A9224FA632001C4E64 /* SectionClass.swift */; };
+		5DB596AC224FA63C001C4E64 /* DataSourceClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB596AB224FA63C001C4E64 /* DataSourceClass.swift */; };
+		5DB596AF224FA795001C4E64 /* ControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB596AE224FA795001C4E64 /* ControllerFactory.swift */; };
+		5DB596B3224FA7D6001C4E64 /* AAAAReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB596B2224FA7D6001C4E64 /* AAAAReusableView.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,6 +35,11 @@
 /* Begin PBXFileReference section */
 		02E4036EFF0F5F259F8B26DA /* Pods-AFSReusableDisplayKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFSReusableDisplayKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-AFSReusableDisplayKit_Example/Pods-AFSReusableDisplayKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		554D1E417FA300D75F9F88EB /* Pods-AFSReusableDisplayKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFSReusableDisplayKit_Example.release.xcconfig"; path = "Target Support Files/Pods-AFSReusableDisplayKit_Example/Pods-AFSReusableDisplayKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5DB596A7224FA602001C4E64 /* ModelObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelObjects.swift; sourceTree = "<group>"; };
+		5DB596A9224FA632001C4E64 /* SectionClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionClass.swift; sourceTree = "<group>"; };
+		5DB596AB224FA63C001C4E64 /* DataSourceClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceClass.swift; sourceTree = "<group>"; };
+		5DB596AE224FA795001C4E64 /* ControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerFactory.swift; sourceTree = "<group>"; };
+		5DB596B2224FA7D6001C4E64 /* AAAAReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AAAAReusableView.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AFSReusableDisplayKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFSReusableDisplayKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +79,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DB596AD224FA640001C4E64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DB596A7224FA602001C4E64 /* ModelObjects.swift */,
+				5DB596A9224FA632001C4E64 /* SectionClass.swift */,
+				5DB596AB224FA63C001C4E64 /* DataSourceClass.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +115,9 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				5DB596AE224FA795001C4E64 /* ControllerFactory.swift */,
+				5DB596B2224FA7D6001C4E64 /* AAAAReusableView.swift */,
+				5DB596AD224FA640001C4E64 /* Model */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -335,6 +358,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB596AF224FA795001C4E64 /* ControllerFactory.swift in Sources */,
+				5DB596B3224FA7D6001C4E64 /* AAAAReusableView.swift in Sources */,
+				5DB596AA224FA632001C4E64 /* SectionClass.swift in Sources */,
+				5DB596A8224FA602001C4E64 /* ModelObjects.swift in Sources */,
+				5DB596AC224FA63C001C4E64 /* DataSourceClass.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
