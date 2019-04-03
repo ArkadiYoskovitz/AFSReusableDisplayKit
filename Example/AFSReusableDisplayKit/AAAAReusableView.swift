@@ -2,8 +2,8 @@
 //  AAAAReusableView.swift
 //  AFSReusableDisplayKit_Example
 //
-//  Created by Arkadi Yoskovitz on 3/30/19.
-//  Copyright © 2019 CocoaPods. All rights reserved.
+//  Created by Arkadi Yoskovitz on 3/28/19.
+//  Copyright © 2019 Arkadi Yoskovitz. All rights reserved.
 //
 
 import UIKit

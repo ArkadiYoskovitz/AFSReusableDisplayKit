@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  AFSReusableDisplayKit
 //
-//  Created by ArkadiGiniApps on 03/30/2019.
-//  Copyright (c) 2019 ArkadiGiniApps. All rights reserved.
+//  Created by Arkadi Yoskovitz on 3/28/19.
+//  Copyright © 2019 Arkadi Yoskovitz. All rights reserved.
 //
 import UIKit
 import AFSReusableDisplayKit
